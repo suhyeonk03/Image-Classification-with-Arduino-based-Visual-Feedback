@@ -1,2 +1,2 @@
-# Image-Classifier-Deep-CNN-
+# Image-Classifier-Deep-CNN
 Simple ML built in Jupyter Notebook using Python 
