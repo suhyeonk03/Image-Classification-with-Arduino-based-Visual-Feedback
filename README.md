@@ -3,8 +3,7 @@ Simple ML built in Jupyter Notebook using Python
 
 ## Project Overview
 Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
-
-  
+<br>
 <ins>**Detailed steps and code are in the Jupyter notebook named Image_Classifier.ipynb**</ins>
 
   
