@@ -20,7 +20,7 @@ Using open-source libraries specialized in deep learning and machine learning, I
 ## Next Steps
 **Combination of Image classification and Arduino**:
 - Key components: Arduino, LCD, LED (yellow, red)
-- Find a way to integrate a Python program with an Arduino
+- Find a way to integrate a Python program with an Arduino (run the model on Jupyter, then transfer the output to Arduino so that Arduino can perform hardware tasks)
 - Get a new image folder. Pick a random image and use it to predict the output. (+ plot the image)
 - This way, if a camera is implemented in the future, the project will be able to handle uploaded images without human interaction
 - If an image (Apple or Orange) is provided, predict it, and display the output using the LCD and LED
