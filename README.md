@@ -21,8 +21,11 @@ Using open-source libraries specialized in deep learning and machine learning, I
 **Combination of Image classification and Arduino**:
 - Key components: Arduino, LCD, LED (yellow, red)
 - Find a way to integrate a Python program with an Arduino
-- Automatically analyze the recently uploaded image. After finishing the prediction, delete the image
-- This way, if a camera is implemented in the future, the project will be able to handle images without human interaction
-- If am image (Apple, Orange) is provided, predict it, and display the output using the LCD and LED
+- Get a new image folder. Pick a random image and use it to predict the output. (+ plot the image)
+- This way, if a camera is implemented in the future, the project will be able to handle uploaded images without human interaction
+- If an image (Apple or Orange) is provided, predict it, and display the output using the LCD and LED
 - LCD: e.g., "Give me an image of either Apple or Orange." --> "It's an Apple/Orange."
 - LED: Turn on the yellow LED if the image is Orange, or the red LED if it's an Apple
+
+## Constraints
+- I couldn’t afford a camera to make this project a fully autonomous image classifier that could perform all the steps without human interaction—capturing an image and using it to make a prediction.
