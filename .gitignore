@@ -1,1 +1,6 @@
-"venv/ venvs/ __pycache__/ *.pyc .DS_Store .ipynb_checkpoints/" 
+venv
+venvs
+__pycache__ 
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
