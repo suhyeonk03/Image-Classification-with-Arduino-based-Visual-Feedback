@@ -28,6 +28,8 @@ Using open-source libraries specialized in deep learning and machine learning, I
 - LCD: e.g., "Give me an image of either Apple or Orange." --> "It's an Apple/Orange."
 - LED: Turn on the yellow LED if the image is Orange, or the red LED if it's an Apple
 
+- Try building multiclass classification, e.g., Apple, Tomato, Orange, Tangerine, Lemon, and Pear (Similar shapes)
+
 # Image Classifier with Arduino board
 
 ## Project overview: 
