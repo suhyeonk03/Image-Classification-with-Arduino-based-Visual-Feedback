@@ -1,8 +1,7 @@
-# Image-Classifier-Deep-CNN-
-Simple ML built in Jupyter Notebook using Python 
+# Phase 1: Image-Classifier-Deep-CNN
 
 ## Project Overview
-Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
+Simple ML built in Jupyter Notebook using Python. Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
 <br><br>
 <ins>**Detailed steps and code are in the Jupyter notebook named Image_Classifier.ipynb**</ins>
 <br><br>
@@ -30,10 +29,12 @@ Using open-source libraries specialized in deep learning and machine learning, I
 <br>
 - Try building multiclass classification, e.g., Apple, Tomato, Orange, Tangerine, Lemon, and Pear (Similar shapes)
 <br>
-# Image Classifier with Arduino board
+# Phase 2: Image Classifier with Arduino board
 
 ## Project overview: 
 This project integrates a deep convolutional neural network (CNN) image classifier with Arduino hardware. The CNN predicts whether an image is an Apple or an Orange, and the Arduino responds by controlling LEDs and an LCD display accordingly.
+
+# Phase 3: Multiclass Classification
 
 ## Constraints
 - I couldn’t afford a camera to make this project a fully autonomous image classifier that could perform all the steps without human interaction—capturing an image and using it to make a prediction.
