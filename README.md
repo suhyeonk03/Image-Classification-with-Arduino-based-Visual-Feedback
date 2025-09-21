@@ -29,6 +29,7 @@ Simple ML built in Jupyter Notebook using Python. Using open-source libraries sp
 <br>
 - Try building multiclass classification, e.g., Apple, Tomato, Orange, Tangerine, Lemon, and Pear (Similar shapes)
 <br>
+
 # Phase 2: Image Classifier with Arduino board
 
 ## Project overview: 
