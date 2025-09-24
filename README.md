@@ -19,7 +19,7 @@ Simple ML built in Jupyter Notebook using Python. Using open-source libraries sp
 - opencv
 
 ### Next Steps
-**Combination of Image classification and Arduino**:
+**Combination of Image classification and Arduino**: <br>
 **Key components**: Arduino, LCD, LED (yellow, red)
 - Find a way to integrate a Python program with an Arduino
   <br>(run the model on Jupyter, then transfer the output to Arduino so that Arduino can perform hardware tasks)
