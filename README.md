@@ -1,9 +1,9 @@
 # Image Classification with Arduino-based Visual Feedback
+
+### Project Overview
 Displays the output of ML image prediction between two classes (apple and orange) using LEDs and an LCD 
 
 ## Phase 1: Image-Classifier-Deep-CNN
-
-### Project Overview
 Simple ML built in Jupyter Notebook using Python. Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
 <br><br>
 <ins>**Detailed steps and code are in the Jupyter notebook named Image_Classifier.ipynb**</ins>
@@ -34,8 +34,6 @@ Simple ML built in Jupyter Notebook using Python. Using open-source libraries sp
 <br>
 
 ## Phase 2: Image Classifier with Arduino board
-
-### Project overview: 
 This project integrates a deep convolutional neural network (CNN) image classifier with Arduino hardware. The CNN predicts whether an image is an Apple or an Orange, and the Arduino responds by controlling LEDs and an LCD display accordingly.
 
 ### Constraints
