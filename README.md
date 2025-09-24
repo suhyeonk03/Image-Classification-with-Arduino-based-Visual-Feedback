@@ -1,3 +1,5 @@
+Displays the output of ML image prediction between two classes (apple and orange) using LEDs and an LCD 
+
 # Phase 1: Image-Classifier-Deep-CNN
 
 ## Project Overview
