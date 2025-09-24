@@ -1,14 +1,15 @@
+# Image Classification with Arduino-based Visual Feedback
 Displays the output of ML image prediction between two classes (apple and orange) using LEDs and an LCD 
 
-# Phase 1: Image-Classifier-Deep-CNN
+## Phase 1: Image-Classifier-Deep-CNN
 
-## Project Overview
+### Project Overview
 Simple ML built in Jupyter Notebook using Python. Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
 <br><br>
 <ins>**Detailed steps and code are in the Jupyter notebook named Image_Classifier.ipynb**</ins>
 <br><br>
   
-## Used Python Libraries
+### Used Python Libraries
 - tensorflow
 - keras
 - matplotlib
@@ -17,7 +18,7 @@ Simple ML built in Jupyter Notebook using Python. Using open-source libraries sp
 - protobuf
 - opencv
 
-## Next Steps
+### Next Steps
 **Combination of Image classification and Arduino**:
 - Key components: Arduino, LCD, LED (yellow, red)
 - Find a way to integrate a Python program with an Arduino
@@ -32,11 +33,11 @@ Simple ML built in Jupyter Notebook using Python. Using open-source libraries sp
 - Try building multiclass classification, e.g., Apple, Tomato, Orange, Tangerine, Lemon, and Pear (Similar shapes)
 <br>
 
-# Phase 2: Image Classifier with Arduino board
+## Phase 2: Image Classifier with Arduino board
 
-## Project overview: 
+### Project overview: 
 This project integrates a deep convolutional neural network (CNN) image classifier with Arduino hardware. The CNN predicts whether an image is an Apple or an Orange, and the Arduino responds by controlling LEDs and an LCD display accordingly.
 
-## Constraints
+### Constraints
 - I couldn’t afford a camera to make this project a fully autonomous image classifier that could perform all the steps without human interaction—capturing an image and using it to make a prediction.
 - Memory constraint: The Arduino board has very limited RAM and flash storage, which is not sufficient to handle TensorFlow, virtual environments, and similar tasks. Instead, a Jupyter Notebook performs these tasks, and the Arduino receives the prediction result to execute hardware operations
