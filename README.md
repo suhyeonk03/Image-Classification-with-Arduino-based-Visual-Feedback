@@ -3,6 +3,13 @@
 ### Project Overview
 Displays the output of ML image prediction between two classes (apple and orange) using LEDs and an LCD 
 
+<p align="center">
+  <img src="https://github.com/suhyeonk03/Simple-Bluetooth-Mouse/blob/main/Arduino_Orange.jpg" alt="" width="600" height="500">
+</p>
+<p align="center">
+  <img src="https://github.com/suhyeonk03/Simple-Bluetooth-Mouse/blob/main/Jupyter_Orange.jpg" alt="LCD and ESP board" width="600" height="500">
+</p>
+
 ## Phase 1: Image-Classifier-Deep-CNN
 Simple ML built in Jupyter Notebook using Python. Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
 <br><br>
