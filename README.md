@@ -1,6 +1,6 @@
 # Image Classification with Arduino-based Visual Feedback
 
-### Project Overview
+## Project Overview
 Displays the output of ML image prediction between two classes (apple and orange) using LEDs and an LCD 
 
 <p align="center">
@@ -8,13 +8,7 @@ Displays the output of ML image prediction between two classes (apple and orange
   <img src="https://github.com/suhyeonk03/Image-Classification-with-Arduino-based-Visual-Feedback/blob/main/Jupyter_Orange.jpg" alt="Picture selected" width="450" height="350">
 </p>
 
-## Phase 1: Image-Classifier-Deep-CNN
-Simple ML built in Jupyter Notebook using Python. Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
-<br><br>
-<ins>**Detailed steps and code are in the Jupyter notebook named Image_Classifier.ipynb**</ins>
-<br><br>
-  
-### Used Python Libraries
+## Used Libraries
 - tensorflow
 - keras
 - matplotlib
@@ -23,12 +17,17 @@ Simple ML built in Jupyter Notebook using Python. Using open-source libraries sp
 - protobuf
 - opencv
 
-### Next Steps
-**Combination of Image classification and Arduino**: <br>
-**Key hardware components**: Arduino, LCD, LED (yellow, red)
-- Find a way to integrate a Python program with an Arduino
-  <br>(run the model on Jupyter, then transfer the output to Arduino so that Arduino can perform hardware tasks)
-  <br>(libraries: pySerial(allows python to communicate with the Arduino via USB serial port))
+## Hardware
+- Arduino Uno R3 SMD
+- DFRobot_RGBLCD1602
+- Breadboard, wires, resistors, LEDs, Mini micro slide switch 
+
+## Phase 1: Image-Classifier-Deep-CNN
+Simple ML built in Jupyter Notebook using Python. Using open-source libraries specialized in deep learning and machine learning, I trained a deep convolutional neural network (CNN) on two cleaned training datasets to classify images into two classes: Apple and Orange
+<br><br>
+<ins>**Detailed steps and code are in the Jupyter notebook named Image_Classifier.ipynb**</ins>
+<br><br>
+
 - Get a new image folder. Pick a random image and use it to predict the output. (+ plot the image)
 - This way, if a camera is implemented in the future, the project will be able to handle uploaded images without human interaction
 - If an image (Apple or Orange) is provided, predict it, and display the output using the LCD and LED
