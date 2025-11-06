@@ -4,10 +4,8 @@
 Displays the output of ML image prediction between two classes (apple and orange) using LEDs and an LCD 
 
 <p align="center">
-  <img src="https://github.com/suhyeonk03/Image-Classification-with-Arduino-based-Visual-Feedback/blob/main/Arduino_Orange.jpg" alt="Arduino with LCD" width="600" height="500">
-</p>
-<p align="center">
-  <img src="https://github.com/suhyeonk03/Image-Classification-with-Arduino-based-Visual-Feedback/blob/main/Jupyter_Orange.jpg" alt="Picture selected" width="600" height="500">
+  <img src="https://github.com/suhyeonk03/Image-Classification-with-Arduino-based-Visual-Feedback/blob/main/Arduino_Orange.jpg" alt="Arduino with LCD" width="450" height="350">
+  <img src="https://github.com/suhyeonk03/Image-Classification-with-Arduino-based-Visual-Feedback/blob/main/Jupyter_Orange.jpg" alt="Picture selected" width="450" height="350">
 </p>
 
 ## Phase 1: Image-Classifier-Deep-CNN
