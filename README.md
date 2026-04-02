@@ -29,7 +29,7 @@ Simple ML built in Jupyter Notebook using Python. Using open-source libraries sp
 <br><br>
 
 ## Phase 2: Image Classifier with Arduino board
-This project integrates a deep convolutional neural network (CNN) image classifier with Arduino hardware. The CNN predicts whether an image is an Apple or an Orange, and the Arduino responds by controlling LEDs and an LCD display accordingly.
+In this phase, a deep convolutional neural network (CNN) image classifier is integrated with Arduino hardware. The CNN predicts whether an image is an Apple or an Orange, and the Arduino responds by controlling LEDs and an LCD display accordingly.
 
 ### How It Works
 1. Run the Arduino code so it can receive predictions from the Jupyter Notebook (Python code) and send prediction requests.
